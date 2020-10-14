@@ -8,7 +8,7 @@ const instance = axios.create({
         'Content-Type': 'application/json',
     },
 });
-
+//
 interceptors(instance);
 
 export default instance;
